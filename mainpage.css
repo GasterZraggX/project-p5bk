@@ -12,12 +12,33 @@
     font-family: 'amaticbold';
     src: url(/Font/Amatic-Bold.ttf);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 25, 25);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+li a:hover {
+    background-color: #111;
+}
 body {
     background-color: rgb(71, 44, 44);
 }
 .title {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 .col {
     border: 9px solid black;
@@ -65,10 +86,19 @@ button:hover {
     display: flex;
   }
   
-  .column {
+.column {
     flex: 33.33%;
     padding: 5px;
     border-radius: 50%;
     color: white;
     font-family: 'deliusc';
-  }
+}
+.custom-shape-divider-top-1644910944 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
