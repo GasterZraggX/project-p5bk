@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'sansation';
+    src: url(/Font/Sansation-Bold.ttf);
+    font-family: 'sansationitalic';
+    src: url(/Font/Sansation-BoldItalic.ttf);
+    font-family: 'deliusc';
+    src: url(/Font/DeliusSwashCaps-Regular.ttf);
+}
+@font-face {
+    font-family: 'amatic';
+    src: url(/Font/AmaticSC-Regular.ttf);
+    font-family: 'amaticbold';
+    src: url(/Font/Amatic-Bold.ttf);
+}
+body {
+    background-color: rgb(71, 44, 44);
+}
+.title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.col {
+    border: 9px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.col img {
+    margin-right: 25px;
+    margin-left: 25px;
+    border: white;
+}
+.col p {
+    color: rgb(207, 192, 192);
+    font-family: 'sansation';
+    font-size: 20px;
+}
+h6 {
+    color: rgb(182, 168, 168);
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'deliusc';
+    font-size: 50px;
+}
+button {
+    border:rgb(71, 44, 44);
+    border-style: none;
+    border-radius: 12px;
+    background-color: rgb(148, 127, 127);
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: rgb(71, 44, 44);
+    color: white;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    font-family: 'deliusc';
+  }
